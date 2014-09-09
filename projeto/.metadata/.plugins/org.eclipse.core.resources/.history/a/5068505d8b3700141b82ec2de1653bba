@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>SISTEMA SOB CONTROLE</title>
+</head>
+<body>
+<H2>LabChristus - Menu Principal do Sistema</H2>
+	<form name="formPrincipal">
+		<button type="submit" formaction="CadastrarEquipamento">Cadastrar
+			Equipamento</button>
+		<button type="submit"
+			formaction="movimentacao/iniciarMovimentacaoEquipamento.html">Registrar
+			Movimentação</button>
+	</form>
+</body>
+</html>

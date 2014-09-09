@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>SISTEMA SOB CONTROLE</title>
+</head>
+<body>
+	<H2>SOB CONTROLE</H2>
+	<h3>Registro de Novo Usuário</h3>
+	<form name="formPrincipal">
+		<label for="email">E-mail:</label>
+		<input type="email" name="email"/><P>
+		<button type="submit" formaction="efetuarLogin.html">Efetuar Login</button><P>
+		<button type="submit" formaction="esqueciSenha.html">Esqueci Minha
+			Senha</button>
+	</form>
+</body>
+</html>
