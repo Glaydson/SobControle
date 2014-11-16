@@ -1,0 +1,62 @@
+
+<html>
+<head>
+<link type="text/css" rel="stylesheet" href="css/style.css">
+<script type="text/javascript" language="JavaScript" src="scripts/geral.js"></script>
+
+</head>
+
+<body>
+
+
+
+
+	<div id="master">
+
+
+
+		<div class='box_txt'>
+
+
+
+			<div>
+
+				<div class="dtree" align="left">
+					<script type="text/javascript">
+						d = new dTree('d');
+						d.add(0, -1, '');
+						d.add(1, 0, 'Receitas');
+						d.add(2, 1, 'Salários', 'HTTP://LINK');
+						d.add(3, 1, 'Ajudas de Custo', 'HTTP://LINK');
+						d.add(4, 1, 'Diárias', 'HTTP://LINK');
+						d.add(5, 1, 'Outras', 'HTTP://LINK');
+
+						d.add(6, 0, 'Despesas');
+
+						d.add(7, 6, 'Habitação');
+						d.add(8, 7, 'Condomínio', 'http://LINK');
+						d.add(9, 7, 'Faxineira', 'http://LINK');
+
+						d.add(10, 6, 'Alimentação');
+						d.add(11, 10, 'Restaurante', 'http://LINK');
+						d.add(12, 10, 'Supermercado', 'http://LINK');
+						
+						d.add(13, 6 , 'Educação');
+						d.add(14, 13, 'Escola', 'http://LINK');
+						d.add(15, 13, 'Faculdade', 'http://LINK');
+						d.add(16, 13, 'Cursos de Idiomas', 'http://LINK');
+
+						document.write(d);
+					</script>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+
+
+</body>
+</html>
+
+

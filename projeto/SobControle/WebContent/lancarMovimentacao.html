@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>SISTEMA SOB CONTROLE</title>
+</head>
+<body style="font-family: 'Bookman Old Style'">
+	<H2>SOB CONTROLE</H2>
+	<h3>Lançamento de Movimentação</h3>
+	<form name="formPrincipal" action="confirmarMovimentacao.html">
+		<label for="tipoMov">Tipo de Movimentação:</label> 
+		<input type="radio" name="tipoMov" value="receita">Receita
+		<input type="radio" name="tipoMov" value="despesa" checked="checked">Despesa<br/>
+		<P>
+		<label for="dataVenc">Data de Vencimento:</label> 
+		<input type="date" name="dataVenc" />
+		<P>
+		<label for="dataPag">Data de Pagamento:</label> 
+		<input type="date" name="dataPag" />
+		<P>
+		<label for="fornecedor">Fornecedor:</label> 
+		<input type="text" name="fornecedor">
+		<P>
+		<label for="valor">Valor:</label> 
+		<input type="number" name="valor">
+		<P>
+		<label for="formaPag">Forma de Pagamento:</label> 
+		<select id="formaPagId" name="formaPag">
+			<option value="nenhuma">Selecione</option>
+			<option value="dinheiro">Dinheiro</option>
+			<option value="cheque">Cheque</option>
+			<option value="cartao">Cartão</option>
+			<option value="debito">Débito em Conta</option>
+		</select>	
+		<P>
+		<label for="cartao">Cartão:</label> 
+		<select id="cartaoId" name="cartao">
+			<option value="nenhuma">Selecione</option>
+			<option value="visabb">Visa BB</option>
+			<option value="mastercardbrad">Mastercard Bradesco</option>
+		</select>
+		<label for="numeroParcelas">Número de Parcelas:</label>
+		<input type="number" name="numeroParcelas" size="3" maxlength="3"> 
+		<P> 
+		<label for="categoria">Categoria:</label> 
+		<input type="text" name="categoria">
+		<P>
+		<input type="submit" value="Lançar">
+		<input type="reset" value="Cancelar">
+		
+	</form>
+</body>
+</html>
